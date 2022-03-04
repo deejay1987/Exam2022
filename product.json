@@ -1,0 +1,58 @@
+product_item[
+    [
+        name: T-shirts,
+        brand: Korean Fashion,
+        user_ratings: 7900,
+        item_quantity: 10,
+        is_favorite: true,
+        product_price: 149,
+        promotions: 47%,
+        sold_item: 21000,
+        variant_type:[
+            size:[
+                [
+                    id: 1,
+                    size: S,
+                ]
+                [
+                    id: 2,
+                    size: M,
+                ]
+                [
+                    id: 3,
+                    size: L,
+                ]
+                [
+                    id: 4,
+                    size: Xl,
+                ]
+                [
+                    id: 5,
+                    size: XXL,
+                ]
+            ]
+            colors: [
+                [
+                    id: 1,
+                    color: black,
+                ]
+                [
+                    id: 2,
+                    color: white,
+                ]
+                [
+                    id: 3,
+                    color: yellow,
+                ]
+                [
+                    id: 4,
+                    color: gray,
+                ]
+                [
+                    id: 5,
+                    color: navy blue,
+                ]
+            ]
+        ]
+    ]
+]

@@ -1,0 +1,84 @@
+hero_skill_ability[
+    [
+        hero_name: layla,
+        role: Marksman,
+        type: range,
+        skill: [
+            [
+                id: 1,
+                name: Malefic Gun,
+                cooldown: 4,
+                mana_cost: 20,
+                type: passive,
+            ]
+            [
+                id: 2,
+                name: Malefic Bomb,
+                cooldown: 4,
+                mana_cost: 15,
+                type: skill_1,
+            ]
+            [
+                id: 3,
+                name: Void Projectile,
+                cooldown: 4,
+                mana_cost: 25,
+                type: skill_2,
+            ]
+            [
+                id: 4,
+                name: Destruction Rush,
+                cooldown: 4,
+                mana_cost: 30,
+                type: skill_3,
+            ]
+        ]
+        item_build:[
+            [
+                id: 1,
+                type: Main,
+            ]
+            [
+                id: 2,
+                type: Secondary,
+            ]
+            [
+                id: 3,
+                type: Battle Spell,
+            ]
+        ]
+        abilitites:[
+            [
+                id: 1,
+                type: durabilty,
+                hp: 50,
+                attack: 40,
+                speed: 30,
+                def: 90,
+                resistance: 60,
+            ]
+            [
+                id: 2,
+                type: offense,
+                hp: 60,
+                attack: 70,
+                speed: 80,
+                def: 50,
+                resistance: 70,
+            ]
+            [
+                id: 3,
+                type: ability effects,
+            ]
+            [
+                id: 4,
+                type: difficulty,
+                hp: 60,
+                attack: 30,
+                speed: 80,
+                def: 70,
+                resistance: 50,
+            ]
+        ]
+    ]
+]
